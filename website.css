@@ -1,0 +1,89 @@
+/* Header styles */
+header {
+    background-color: blue;
+}
+/* font-family is inhered, so setting it on body sets it for the whole page */
+body {
+    font-family: "Nunito Sans";
+    font-size: 8px;
+}
+h1{
+    font-family: Raleway;
+    font-weight: 300;
+
+}
+h2{
+    font-family: Raleway;
+    font-weight: 300;
+}
+/* Sets <h1> text to be 5 times the size
+   of the text around it */
+h1{
+    font-size: 7.0rem;
+    color: black
+   
+}
+/* Sets <h2> text to be 2.5 times the size
+   of the text around it */
+h2{
+    font-size: 5.0rem;
+    color: black
+}
+.container{
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+header{
+    background-image: url(../booklist/bookline.jpg);
+    background-size: contain;
+    color: midnightblue;
+    padding: 5px;
+}
+.motto{
+    font-style: italic;
+    font-size: 3.0rem;
+}
+#menu{
+    font-size: 5.0rem;
+    background-color: green;
+    padding: 10px;
+}
+
+dt{
+    font-weight: bold
+}
+dd {
+    text-align: left;
+    margin-left: 1px;
+}
+main{
+    background-color: #E0E0E0;
+    line-height: 1.5;
+    padding: 10px;
+    padding-bottom: 5px;
+}
+img{
+    float: right;
+    max-width: 300px;
+}
+footer{
+    background-color: #3E1305;
+    color: white;
+    padding: 5px;
+}
+svg{
+    fill: white;
+    max-width: 1.8rem;
+    text-decoration: none;
+    transition: all 0.5s ease-out;
+   
+}
+#container a:hover{
+    color: #D0D0D0;
+}
+a:link{
+    text-decoration: none;
+}
