@@ -59,7 +59,7 @@ const BOOKLIST = [
         "title": "Nerdy Birdy",
         "author": "Aaron Reynolds",
         "genre": "Picture Books",
-        "age": "first and up"
+        "grade": "first and up"
       
     },
     {
@@ -94,7 +94,7 @@ const BOOKLIST = [
         "title": "The Sisters Grimm",
         "author": "Michael Buckley",
         "genre": "Fantasy",
-        "Grade": "third and up"
+        "grade": "third and up"
       
     },
     {
@@ -157,7 +157,7 @@ const BOOKLIST = [
         "title": "Spy School",
         "author": "Stuart Gibbs",
         "genre": "Fantasy",
-        "grade": "thrid and up"
+        "grade": "third and up"
       
     },
     {
@@ -178,7 +178,7 @@ const BOOKLIST = [
         "title": "Salt to the Sea",
         "author": "Ruta Sepetys",
         "genre": "Historical Fiction",
-        "grade": "eigth and up"
+        "grade": "eighth and up"
       
     },
     {
@@ -190,9 +190,9 @@ const BOOKLIST = [
     },
     {
         "title": "Turtles All the Way Down",
-        "author": "JOhn Green",
+        "author": "John Green",
         "genre": "Realistic Fiction",
-        "grade": "eigth and up"
+        "grade": "eighth and up"
       
     }
 ];

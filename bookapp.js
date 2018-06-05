@@ -6,7 +6,7 @@ function renderBooklist(book_selections) {
 
     //clear any existing content in the body
     tbody.textContent = "";
-    return tbody;
+    
 
     //for each element in the array...
     for (var idx = 0; idx < book_selections.length; idx++) {
@@ -48,15 +48,10 @@ function renderBookProp(content, nonNumeric) {
         td.classList.add("nonnumeric");
     }
 
-    //return the new element to the caller
+   
     return td;
 }
 
-//var MOVIES = [...] from above
-
-BOOKLIST.sort(function(a, b) { 
-return b.title - a.title;
-})
 renderBook(BOOKLIST);
 
 var Inputvariable = document.getElementById("book-filter");
@@ -66,7 +61,7 @@ Inputvariable.addEventListener("input", function() {
 
 var genrefilter = BOOKLIST.filter(function(el) {
 
-return el.title.toLowerCase().indexOf(Inputvariable.value.toLowerCase()) > -1;
+return el.genre.toLowerCase().indexOf(Inputvariable.value.toLowerCase()) > -1;
 });
 
 renderBooklist(genrefilter);
